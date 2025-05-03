@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "EZWin",
+  "version": "1.0",
+  "description": "Send quiz questions to GPT and mark the correct answer.",
+  "permissions": ["scripting", "activeTab", "storage"],
+  "host_permissions": ["https://api.openai.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
