@@ -3,16 +3,17 @@
 <head>
   <title>GPT Quiz Helper</title>
   <style>
-    body { font-family: Arial, sans-serif; width: 250px; padding: 10px; }
-    input { width: 100%; margin-bottom: 10px; padding: 5px; }
-    button { width: 100%; padding: 5px; margin-bottom: 5px; }
+    body { font-family: Arial, sans-serif; width: 90px; padding: 5px; }
+    input { width: 100%; margin-bottom: 3px; padding: 1px; font-size: 10px; }
+    button { width: 100%; padding: 1px; margin-bottom: 2px; font-size: 10px; }
+    h3 { display: none; }
   </style>
 </head>
 <body>
   <h3>EZWin</h3>
-  <input type="password" id="apikey" placeholder="api key">
-  <button id="save">Save API Key</button>
-  <button id="run">Run Script</button>
+  <input type="password" id="apikey" placeholder="API key">
+  <button id="save">Save</button>
+  <button id="run">Run</button>
   <div id="status" style="margin-top:10px; color: green;"></div>
   <script src="popup.js"></script>
 </body>
